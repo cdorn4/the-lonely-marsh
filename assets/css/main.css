@@ -3137,7 +3137,7 @@ body.is-mobile #main > header {
 
 /* Footer */
 #footer {
-  padding: 6em 0 4em 0;
+  padding: 6em 3em 4em 3em;
   background-color: rgb(0.5516483516, 37.5120879121, 49.6483516484);
   text-align: center;
 }
@@ -3154,26 +3154,35 @@ body.is-mobile #main > header {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  width: 60em;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
 }
 #footer .icons {
   font-size: 1.25em;
-}
-#footer .icons a {
-  color: rgba(255, 255, 255, 0.5);
-}
-#footer .icons a:hover {
-  color: #fff;
-}
-#footer .copyright {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8em;
   letter-spacing: 0.225em;
   list-style: none;
   padding: 0;
   text-transform: uppercase;
+  text-align: right;
+}
+#footer .icons a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+}
+#footer .icons a:hover {
+  color: #fff;
+}
+#footer .contact {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: left;
 }
 #footer ul {
   margin-bottom: 0;
@@ -3185,6 +3194,13 @@ body.is-mobile #main > header {
   line-height: 1em;
   margin-left: 1em;
   padding-left: 1em;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: right;
 }
 #footer .copyright li:first-child {
   border-left: 0;

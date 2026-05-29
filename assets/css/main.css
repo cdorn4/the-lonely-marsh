@@ -2146,10 +2146,10 @@ button:disabled,
 
 /* Spotlight */
 .spotlight {
-  -moz-align-items: center;
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
+  -moz-align-items: stretch;
+  -webkit-align-items: stretch;
+  -ms-align-items: stretch;
+  align-items: stretch;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2166,6 +2166,8 @@ button:disabled,
 .spotlight .image img {
   border-radius: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .spotlight .content {
   padding: 2em 4em 0.1em 4em;
